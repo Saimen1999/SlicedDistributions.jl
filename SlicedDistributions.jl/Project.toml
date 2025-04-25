@@ -1,0 +1,29 @@
+name = "SlicedDistributions"
+uuid = "78bc189a-7b6d-4df1-8a23-377b7c6fd0cb"
+authors = ["Jasper Behrensdorf <behrensdorf@irz.uni-hannover.de>"]
+version = "0.1.0"
+
+[deps]
+Copulas = "ae264745-0b69-425e-9d9d-cf662c5eec93"
+CovarianceEstimation = "587fd27a-f159-11e8-2dae-1979310e6154"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Monomials = "272bfe72-f66c-432f-a94d-600f29493792"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+QuasiMonteCarlo = "8a4e6c94-4038-4cdc-81c3-7e6ffdb2a71b"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+TransitionalMCMC = "5bc637a6-1a46-43ed-8ea7-ee39cc1921ce"
+
+[compat]
+Copulas = "0.1.26"
+CovarianceEstimation = "0.2"
+DataFrames = "1.7.0"
+Distributions = "0.25"
+Monomials = "1.0.0"
+Plots = "1.40.9"
+StatsBase = "0.33"
+StatsPlots = "0.15.7"
+TransitionalMCMC = "0.4"
